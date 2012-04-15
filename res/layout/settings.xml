@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<TableLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:stretchColumns="0">
+
+		<TableRow>
+			<TextView android:id="@+id/list_header_title"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				style="?android:attr/listSeparatorTextViewStyle" android:text="Settings"
+				android:layout_span="2" />
+		</TableRow>
+
+		<TableRow>
+			<TextView android:id="@+id/list_item_title"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:paddingTop="10dip" android:paddingBottom="10dip"
+				android:paddingLeft="15dip" android:textAppearance="?android:attr/textAppearanceLarge"
+				android:text="Stretch to fit" />
+
+			<CheckBox android:id="@+id/fullscreen" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_gravity="center"
+				android:gravity="center" />
+		</TableRow>
+
+		<TableRow android:visibility="gone">
+			<TextView android:id="@+id/list_item_title"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:paddingTop="10dip" android:paddingBottom="10dip"
+				android:paddingLeft="15dip" android:textAppearance="?android:attr/textAppearanceLarge"
+				android:text="Hide Top Menu" />
+
+			<CheckBox android:id="@+id/hidetop" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_gravity="center"
+				android:gravity="center" />
+		</TableRow>
+
+		<TableRow>
+			<TextView android:id="@+id/list_item_title"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:paddingTop="10dip" android:paddingBottom="10dip"
+				android:paddingLeft="15dip" android:textAppearance="?android:attr/textAppearanceLarge"
+				android:text="Show FPS" />
+
+			<CheckBox android:id="@+id/drawfps" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_gravity="center"
+				android:gravity="center" />
+		</TableRow>
+		
+		
+		<TableRow>
+			<TextView android:id="@+id/list_item_title"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:paddingTop="10dip" android:paddingBottom="10dip"
+				android:paddingLeft="15dip" android:textAppearance="?android:attr/textAppearanceLarge"
+				android:text="Sound" />
+
+			<CheckBox android:id="@+id/sound" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_gravity="center"
+				android:gravity="center" />
+		</TableRow>
+
+		<TableRow android:visibility="gone">
+			<TextView android:id="@+id/list_item_title"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:paddingTop="10dip" android:paddingBottom="10dip"
+				android:paddingLeft="15dip" android:textAppearance="?android:attr/textAppearanceLarge" 
+				android:text="Thumbnail Size" />
+
+			<Spinner android:id="@+id/thumbnails" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:entries="@+array/thumbnail_sizes" />
+		</TableRow>
+
+
+
+		<TableRow>
+			<TextView android:id="@+id/list_header_title"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				style="?android:attr/listSeparatorTextViewStyle" android:text="Controls"
+				android:layout_span="2" />
+		</TableRow>
+
+		<TableRow android:visibility="gone">
+			<TextView android:id="@+id/list_item_title"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:paddingTop="10dip" android:paddingBottom="10dip"
+				android:paddingLeft="15dip" android:textAppearance="?android:attr/textAppearanceLarge"
+				android:text="Touch Controls" />
+
+			<CheckBox android:id="@+id/touch" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_gravity="center"
+				android:gravity="center" />
+		</TableRow>
+
+		<TableRow>
+			<TextView android:id="@+id/list_item_title"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:paddingTop="10dip" android:paddingBottom="10dip"
+				android:paddingLeft="15dip" android:textAppearance="?android:attr/textAppearanceLarge"
+				android:text="Up" />
+
+			<Button android:id="@+id/up" />
+		</TableRow>
+
+		<TableRow>
+			<TextView android:id="@+id/list_item_title"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:paddingTop="10dip" android:paddingBottom="10dip"
+				android:paddingLeft="15dip" android:textAppearance="?android:attr/textAppearanceLarge"
+				android:text="Down" />
+			<Button android:id="@+id/down" />
+		</TableRow>
+
+		<TableRow>
+			<TextView android:id="@+id/list_item_title"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:paddingTop="10dip" android:paddingBottom="10dip"
+				android:paddingLeft="15dip" android:textAppearance="?android:attr/textAppearanceLarge"
+				android:text="Left" />
+			<Button android:id="@+id/left" />
+		</TableRow>
+
+		<TableRow>
+			<TextView android:id="@+id/list_item_title"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:paddingTop="10dip" android:paddingBottom="10dip"
+				android:paddingLeft="15dip" android:textAppearance="?android:attr/textAppearanceLarge"
+				android:text="Right" />
+			<Button android:id="@+id/right" />
+		</TableRow>
+
+		<TableRow>
+			<TextView android:id="@+id/list_item_title"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:paddingTop="10dip" android:paddingBottom="10dip"
+				android:paddingLeft="15dip" android:textAppearance="?android:attr/textAppearanceLarge"
+				android:text="A" />
+			<Button android:id="@+id/a" />
+		</TableRow>
+
+		<TableRow>
+			<TextView android:id="@+id/list_item_title"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:paddingTop="10dip" android:paddingBottom="10dip"
+				android:paddingLeft="15dip" android:textAppearance="?android:attr/textAppearanceLarge"
+				android:text="B" />
+			<Button android:id="@+id/b" />
+		</TableRow>
+
+		<TableRow>
+			<TextView android:id="@+id/list_item_title"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:paddingTop="10dip" android:paddingBottom="10dip"
+				android:paddingLeft="15dip" android:textAppearance="?android:attr/textAppearanceLarge"
+				android:text="Start" />
+			<Button android:id="@+id/start" />
+		</TableRow>
+
+		<TableRow>
+			<TextView android:id="@+id/list_item_title"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:paddingTop="10dip" android:paddingBottom="10dip"
+				android:paddingLeft="15dip" android:textAppearance="?android:attr/textAppearanceLarge"
+				android:text="Select" />
+			<Button android:id="@+id/select" />
+		</TableRow>
+
+	</TableLayout>
+</ScrollView>

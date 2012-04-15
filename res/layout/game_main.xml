@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <FrameLayout
+        android:id="@+id/SurfaceHolder"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <FrameLayout
+        android:id="@+id/BarBattery"
+        android:layout_width="27px"
+        android:layout_height="12px"
+         android:layout_marginBottom="2px"
+         android:layout_marginRight="2px"
+        android:layout_alignParentBottom="true" android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@+id/TextViewTime"
+        android:layout_width="wrap_content"
+        android:layout_height="12px"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="11:00PM"
+        android:textSize="12px"
+        android:visibility="gone"
+        android:layout_marginBottom="2px"/>
+
+    <TextView
+        android:id="@+id/FPS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="fps"
+        android:textSize="22dip"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/ButtonStart"
+        android:layout_width="80dip"
+        android:layout_height="80dip" >
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/ButtonA"
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+        android:layout_alignParentBottom="true" >
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/ButtonSelect"
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/ButtonB"
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" >
+    </FrameLayout>
+
+</RelativeLayout>

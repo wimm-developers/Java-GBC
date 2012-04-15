@@ -1,0 +1,8 @@
+<resources>
+	<string-array name="thumbnail_sizes">
+		<item>Large</item>
+		<item>Medium</item>
+		<item>Small</item>
+		<item>None</item>
+	</string-array>
+</resources>

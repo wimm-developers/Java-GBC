@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	<drawable name="solid_red">#f00</drawable>
+	<drawable name="solid_blue">#0f0</drawable>
+	<drawable name="solid_green">#00f</drawable>
+</resources>
